@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/Santru45/Terraform_Jenkins.git"
+                            git branch: 'main', url: "https://github.com/Santru45/Terraform_Jenkins.git"
                         }
                     }
                 }
